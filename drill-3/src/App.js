@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { connect } from 'react-redux';
-import {addGuest, removeGuest} from './ducks/guestList';
+import { addGuest, removeGuest } from './ducks/guestList';
 
 class App extends Component {
   constructor() {
